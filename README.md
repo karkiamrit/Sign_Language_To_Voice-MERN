@@ -2,7 +2,7 @@
 This is a full stack sign language to voice translation system tentatively designed to be used by government offices.
 Process Flow: 
 -Government Employee logins into system with his/her id and credentials.
--When a user arrives, S/He open the translation page and face the camera towards user.
+-When a user arrives, S/He opens the translation page and face the camera towards user.
 -The user requests translation by showing the start gesture(here gesture class named as suruwat garnuhos).
 -Once the start gesture is detected an input form pops up where user enters his/her username and also a photo of user is taken.
 -User submits those details and begins translation.
