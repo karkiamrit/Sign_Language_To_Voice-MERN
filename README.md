@@ -10,3 +10,6 @@ Process Flow:
 -This continues until User gives the stop gestures thats predefined.
 -After this session ends and data of gestures is send to backend for admin viewing. 
 -On press Speak again new session begins.
+
+Model Used - Teachable machine Model 
+Tech Stack Used- MERN, Flask (just for initial testing of model)
