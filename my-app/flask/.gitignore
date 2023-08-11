@@ -1,0 +1,7 @@
+.ipynb_checkpoints
+build
+Data
+myenv
+dataCollection.py
+setup.py
+test.spec

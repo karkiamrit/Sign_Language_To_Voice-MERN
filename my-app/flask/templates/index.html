@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hand Gesture Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+        }
+        
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        
+        img {
+            border: 1px solid #ccc;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 100%;
+            height: auto;
+        }
+    </style>  <!-- Inline style tag -->
+
+</head>
+<body>
+    <h1>Hand Gesture Detection</h1>
+    <div class="video-container">
+        <img src="{{ url_for('video_feed') }}" width="640" height="480">
+    </div>
+</body>
+</html>
